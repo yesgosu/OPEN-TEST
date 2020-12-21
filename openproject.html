@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mileage Manager</title>
+</head>
+<body>
+    <div style="width: 30%; border-width: 1px; border-radius: 2%; border-style: solid; border-color: black;padding: 1% 1% 1% 1%; ">
+        <div id="title">
+            <h1>Mileage Customer</h1>
+        </div>
+        <div style="border-width: 1px; border-radius: 2%; border-style: solid; border-color: black; background-color: blanchedalmond; padding: 5px; ">
+            <h4 style="margin: 0;">적립할 휴대폰 번호를 입력해주세요</h4>
+        </div>
+        <div >
+            <div>
+            Amount : <input id="amount" readonly style="background-color: aquamarine;"/> <button  onclick="generateAmount()">check</button>
+            </div>
+            <div>
+                Phone Number : <input id="phoneNumberInput" readonly style="background-color: darkblue; color:chartreuse"/> <button onclick="save()">Save</button>
+            </div>  
+        </div>
+        <div id="phoneNumberButtons">
+            <button class="numberButton">010</button>
+            <button class="numberButton">0</button>
+            <button class="numberButton">1</button>
+            <button class="numberButton">2</button>
+            <button class="numberButton">3</button>
+            <button class="numberButton">4</button>
+            <button class="numberButton">5</button>
+            <button class="numberButton">6</button>
+            <button class="numberButton">7</button>
+            <button class="numberButton">8</button>
+            <button class="numberButton">9</button>
+            <button class="backspace" style="background-color: lightpink;">X</button>
+            <button class="clear" style="background-color: cadetblue">C</button>
+        </div>
+    </div>
+</body>
+</html>
